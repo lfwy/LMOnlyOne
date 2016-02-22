@@ -10,6 +10,7 @@
 		3A724A2B1C7A94E3004BDC86 /* LMThingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A724A2A1C7A94E3004BDC86 /* LMThingView.m */; };
 		3A724A2E1C7AA3DD004BDC86 /* LMArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A724A2D1C7AA3DD004BDC86 /* LMArticleView.m */; };
 		3AEE700A1C7AAA98001F03BC /* LMArticleAuthorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE70091C7AAA98001F03BC /* LMArticleAuthorView.m */; };
+		3AEE700D1C7AB28D001F03BC /* LMQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE700C1C7AB28D001F03BC /* LMQuestionView.m */; };
 		85B6F0941C71628000697B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B6F0931C71628000697B87 /* main.m */; };
 		85B6F0971C71628000697B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B6F0961C71628000697B87 /* AppDelegate.m */; };
 		85B6F09F1C71628000697B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B6F09E1C71628000697B87 /* Assets.xcassets */; };
@@ -91,6 +92,8 @@
 		3A724A2D1C7AA3DD004BDC86 /* LMArticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMArticleView.m; sourceTree = "<group>"; };
 		3AEE70081C7AAA98001F03BC /* LMArticleAuthorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMArticleAuthorView.h; sourceTree = "<group>"; };
 		3AEE70091C7AAA98001F03BC /* LMArticleAuthorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMArticleAuthorView.m; sourceTree = "<group>"; };
+		3AEE700B1C7AB28D001F03BC /* LMQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMQuestionView.h; sourceTree = "<group>"; };
+		3AEE700C1C7AB28D001F03BC /* LMQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMQuestionView.m; sourceTree = "<group>"; };
 		85B6F08F1C71628000697B87 /* onlyOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlyOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B6F0931C71628000697B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85B6F0951C71628000697B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -376,6 +379,8 @@
 				3A724A2D1C7AA3DD004BDC86 /* LMArticleView.m */,
 				3AEE70081C7AAA98001F03BC /* LMArticleAuthorView.h */,
 				3AEE70091C7AAA98001F03BC /* LMArticleAuthorView.m */,
+				3AEE700B1C7AB28D001F03BC /* LMQuestionView.h */,
+				3AEE700C1C7AB28D001F03BC /* LMQuestionView.m */,
 				3A724A291C7A94E3004BDC86 /* LMThingView.h */,
 				3A724A2A1C7A94E3004BDC86 /* LMThingView.m */,
 			);
@@ -709,6 +714,7 @@
 				85B6F0DC1C717FF000697B87 /* AFURLResponseSerialization.m in Sources */,
 				85B6F0941C71628000697B87 /* main.m in Sources */,
 				85B6F1711C71809700697B87 /* MJDictionaryCache.m in Sources */,
+				3AEE700D1C7AB28D001F03BC /* LMQuestionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

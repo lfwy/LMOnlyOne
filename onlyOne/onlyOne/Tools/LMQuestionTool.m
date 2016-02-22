@@ -16,6 +16,8 @@
     
     NSDictionary *parameters = @{@"strDate" : dateString, @"strLastUpdateDate" : lastUpdateDateString};
     [LMHttpTool GET:URL_GET_QUESTION_CONTENT parameters:parameters success:^(id responseObject) {
+        
+        NSLog(@"%@",responseObject);
         if (success) {
             LMQuestionModal *questionModal = [[LMQuestionModal alloc]init];
             [questionModal mj_setKeyValues:responseObject[@"questionAdEntity"]];
